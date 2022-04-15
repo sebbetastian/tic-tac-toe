@@ -1,0 +1,63 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tic-tac-toe {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: none;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    align-self: end;
+}
+
+.tic-tac-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.tic-tac {
+    height: 98px;
+    width: 98px;
+    border: 1px solid black;
+    justify-self: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-board {
+    width: 100%;
+    align-self: start;
+}
+
+.reset-button {
+    margin: 0 auto;
+    width: 8em;
+    height: 4em;
+    background-color: blueviolet;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.reset-button:hover {
+    box-shadow: none;
+}
