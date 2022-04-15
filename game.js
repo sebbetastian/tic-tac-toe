@@ -1,4 +1,3 @@
-//buggytown
 const ticTac = Array.from(document.querySelectorAll('[data-tic-tac]'));
 const resetBtn = document.querySelector('[data-reset]');
 const winner = document.getElementById('winner');
