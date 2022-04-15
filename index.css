@@ -33,11 +33,12 @@ body, html {
     width: 98px;
     border: 1px solid black;
     justify-self: center;
-    font-size: 60px;
+    font-size: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-family: 'Indie Flower', cursive;
 }
 
 .reset-board {
